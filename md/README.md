@@ -2,6 +2,9 @@
 
 Ez egy egyszerű szótár párosító játék, amely magyar-német szópárokat használ. A felhasználó kiválaszt egy magyar és egy német szót, és a program ellenőrzi, hogy azok helyes párosítást alkotnak-e. A cél minél több helyes párosítás létrehozása a lehető legrövidebb idő alatt.
 
+![Game](../images/game_photo.png)
+
+
 ## Fő funkciók:
 - Szópárok megjelenítése és párosítása
 - Pontszám követése

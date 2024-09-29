@@ -22,3 +22,8 @@ A rendszer célja egy szótár alapú játék fejlesztése, amely lehetővé tes
   { "hungarian": "asztal", "german": "Tisch" },
   { "hungarian": "kutya", "german": "Hund" }
 ]
+```
+
+### 4. Diagram
+
+![Diagram](../images/diagram.png)
