@@ -224,3 +224,5 @@ function clearSelections(type) {
     const selectedItems = type === 'hungarian' ? hungarianList.querySelectorAll('li.selected') : germanList.querySelectorAll('li.selected');
     selectedItems.forEach(item => item.classList.remove('selected'));
 }
+
+module.exports = { loadWords, startGame, getRandomWords, checkMatch, words, usedWords, score };
