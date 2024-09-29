@@ -11,7 +11,7 @@ Ez egy egyszerű szótár párosító játék, amely magyar-német szópárokat 
 ## Telepítés:
 1. Klónozd a repót:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/enikoandrea123/szotar_jatek.git
 
 2. Telepítsd a szükséges csomagokat:
    ```bash
