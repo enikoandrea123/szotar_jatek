@@ -9,3 +9,31 @@
     <title>Szótárazó Játék</title>
 </head>
 
+<body>
+<div class="container">
+    <h1>Szótárazó Játék</h1>
+    <div id="scoreboard" class="scoreboard-container">
+        <div id="score">Pontszám: 0</div>
+        <div id="highScore">Legmagasabb Pontszám: 0</div>
+    </div>
+    <button id="startButton">Játék Indítása</button>
+    <button id="stopButton" class="hidden">Játék Leállítása</button>
+    <button id="restartButton" class="hidden">Újraindítás</button>
+    <div id="game" class="hidden">
+        <div class="columns">
+            <div class="column" id="hungarianColumn">
+                <h2>Magyar szavak</h2>
+                <ul id="hungarianList"></ul>
+            </div>
+            <div class="column" id="germanColumn">
+                <h2>Német szavak</h2>
+                <ul id="germanList"></ul>
+            </div>
+        </div>
+        <p id="message" class="message"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
